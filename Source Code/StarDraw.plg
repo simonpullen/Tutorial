@@ -1,0 +1,68 @@
+--------------------Configuration: StarDraw - Win32 Release--------------------
+Begining build with project "C:\StarDraw Tutorial\STEP8\StarDraw.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			" (fl32.exe)" with flags "/I "Release/" "
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/StarDraw.pch" /Yu"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo".\Release/StarDraw.res" /d "NDEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/StarDraw.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:no /pdb:".\Release/StarDraw.pdb" /machine:I386 /out:".\Release/StarDraw.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "e:\TEMP\RSP383.bat" with contents <@echo off
+makehelp.bat
+>
+Creating command line "e:\TEMP\RSP383.bat" 
+Creating command line "rc.exe /l 0x409 /fo".\Release/StarDraw.res" /d "NDEBUG" /d "_AFXDLL" "C:\StarDraw Tutorial\STEP8\StarDraw.rc"" 
+Making help file...
+Building Win32 Help files
+
+
+Creating temp file "e:\TEMP\RSP384.tmp" with contents </nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/StarDraw.pch" /Yu"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\StarDraw Tutorial\STEP8\childfrm.cpp"
+"C:\StarDraw Tutorial\STEP8\ipframe.cpp"
+"C:\StarDraw Tutorial\STEP8\mainfrm.cpp"
+"C:\StarDraw Tutorial\STEP8\pendlg.cpp"
+"C:\StarDraw Tutorial\STEP8\StarDraw.cpp"
+"C:\StarDraw Tutorial\STEP8\Stardoc.cpp"
+"C:\StarDraw Tutorial\STEP8\Staritm.cpp"
+"C:\StarDraw Tutorial\STEP8\Starvw.cpp"
+>
+Creating command line "cl.exe @e:\TEMP\RSP384.tmp" 
+Creating temp file "e:\TEMP\RSP385.tmp" with contents </nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Release/StarDraw.pch" /Yc"stdafx.h" /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\StarDraw Tutorial\STEP8\stdafx.cpp"
+>
+Creating command line "cl.exe @e:\TEMP\RSP385.tmp" 
+Creating temp file "e:\TEMP\RSP386.tmp" with contents </nologo /subsystem:windows /incremental:no /pdb:".\Release/StarDraw.pdb" /machine:I386 /out:".\Release/StarDraw.exe" 
+".\Release\childfrm.obj"
+".\Release\ipframe.obj"
+".\Release\mainfrm.obj"
+".\Release\pendlg.obj"
+".\Release\StarDraw.obj"
+".\Release\Stardoc.obj"
+".\Release\Staritm.obj"
+".\Release\Starvw.obj"
+".\Release\stdafx.obj"
+".\Release\StarDraw.res">
+Creating command line "link.exe @e:\TEMP\RSP386.tmp" 
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+childfrm.cpp
+ipframe.cpp
+mainfrm.cpp
+pendlg.cpp
+StarDraw.cpp
+Stardoc.cpp
+Staritm.cpp
+Starvw.cpp
+Generating Code...
+Linking...
+
+
+
+StarDraw.exe - 0 error(s), 0 warning(s)
